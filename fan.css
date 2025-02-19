@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fan
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle
+{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    border-radius: 50%;
+    position: relative;  
+}
+.fan1
+{
+    width: 100px;
+    height: 30px;
+    background-color: darkred;
+    position: absolute;
+    top: 35px;
+    right: 98px;
+}
+.fan2
+{ 
+    top: 35px;
+    left: 98px;
+}
+.fan3
+{
+    transform: rotate(90deg);
+    top: -63px;
+    right: 0px;
+}
+.fan4
+{
+    transform: rotate(90deg);
+    top: 133px;
+    right: 0px;
+}
+.circle:hover
+{
+    transition: 0.5s linear;
+    transform:rotate(360deg);
+}
